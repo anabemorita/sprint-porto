@@ -1,6 +1,6 @@
 body{
     margin: 0;
-    height: 3500px;
+    height: 3640px;
     width: 100vw; /*1810   1902*/
 }
 #div{
@@ -31,18 +31,85 @@ body{
     right: 8%;
 }
 
+#redes{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    border: 10px red solid;
+    width: 36%;
+    height: 60px;
+    bottom: -246%;
+    left: 26.5%;
+}
+
+#face{
+    /* border: 10px green solid; */
+    width: 20%;
+}
+
+#youtube{
+    /* border: 10px green solid; */
+    width: 20%;
+}
+
+#twitter{
+    /* border: 10px green solid; */
+    width: 20%;
+}
+
+#insta{
+    /* border: 10px green solid; */
+    width: 20%;
+}
+
+#linkedin{
+    /* border: 10px green solid; */
+    width: 20%;
+}
+
 @media(min-width: 1280px){
     body{
         height: 3200px;
     }
     #div{
-        background-size: contain;
+        background-size: cover;
     }
     .clique{
         bottom: 25%;
     }
     #experientes{
         right: 9%;
+    }
+
+    #redes{
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        border: 10px red solid;
+        width: 36%;
+        height: 60px;
+        bottom: -246%;
+        left: 26.5%;
+    }
+    
+    #face{
+        width: 20%;
+    }
+    
+    #youtube{
+        width: 20%;
+    }
+    
+    #twitter{
+        width: 20%;
+    }
+    
+    #insta{
+        width: 20%;
+    }
+    
+    #linkedin{
+        width: 20%;
     }
 }
 
