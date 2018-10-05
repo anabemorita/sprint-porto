@@ -38,6 +38,7 @@
     font-family: 'Montserrat', sans-serif;
     font-size: 16pt;
     font-weight: bold;
+    color: aqua;
     animation-name: blinker;
     animation-fill-mode: forwards;
     animation-duration: 4s;
@@ -58,7 +59,7 @@
 
 @keyframes pular{
     from{ transform: rotateY(0); }
-    to{ transform: translateY(8px); }
+    to{ transform: translateY(10px); }
 }
 
 @keyframes mostrar{
