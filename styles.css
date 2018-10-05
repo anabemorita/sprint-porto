@@ -1,10 +1,10 @@
 body{
     margin: 0;
-    height: 3640px;
+    height: 820px;/*3640*/
     width: 100vw; /*1810   1902*/
 }
 #div{
-    background-image: url('./porto.jpg');
+    background-image: url('./menu-home.jpg');
     overflow-y: visible;
     /*overflow-x: hidden; */
     background-size: cover;
@@ -69,7 +69,7 @@ body{
 
 @media(min-width: 1280px){
     body{
-        height: 3200px;
+        height: 820px;/*3700*/
     }
     #div{
         background-size: cover;
@@ -85,11 +85,11 @@ body{
         position: absolute;
         display: flex;
         justify-content: center;
-        border: 10px red solid;
-        width: 36%;
+        /* border: 10px red solid; */
+        width: 40%;
         height: 60px;
-        bottom: -246%;
-        left: 26.5%;
+        bottom: -299%;
+        left: 30.5%;
     }
     
     #face{
