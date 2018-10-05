@@ -13,22 +13,51 @@ body{
     height: 100%;
     position: relative;
 }
-#estagio{
-    border: 10px red solid;
+
+.clique{
+    /* border: 10px red solid; */
     position: absolute;
     bottom: 22%;
-    left: 13%;
-    height: 30px;
-    width: 140px;
+    height: 45px;
+    width: 120px;
     cursor: pointer;
 }
 
+#estagio{
+    left: 13%;
+}
+
 #experientes{
-    border: 10px red solid;
-    position: absolute;
-    bottom: 22%;
     right: 8%;
-    height: 30px;
-    width: 140px;
-    cursor: pointer;
+}
+
+@media(min-width: 1280px){
+    body{
+        height: 3200px;
+    }
+    #div{
+        background-size: contain;
+    }
+    .clique{
+        bottom: 25%;
+    }
+    #experientes{
+        right: 9%;
+    }
+}
+
+@media(min-width: 1920px){
+    body{
+        height: 4840px;
+    }
+    #div{
+        background-size: cover;
+    }
+    .clique{
+        bottom: 25%;
+        width: 190px;
+    }
+    #experientes{
+        bottom: 25%;
+    }
 }
